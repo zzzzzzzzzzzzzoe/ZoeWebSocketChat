@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  ZoeWebSocketChatDemo
 //
 //  Created by mac on 2017/6/27.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RootViewController : UIViewController
 
 @end
-

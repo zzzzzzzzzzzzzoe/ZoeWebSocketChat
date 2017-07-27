@@ -9,12 +9,28 @@
 /* Begin PBXBuildFile section */
 		045003FB1F021E2B00E77816 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045003FA1F021E2B00E77816 /* main.m */; };
 		045003FE1F021E2B00E77816 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045003FD1F021E2B00E77816 /* AppDelegate.m */; };
-		045004011F021E2B00E77816 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045004001F021E2B00E77816 /* ViewController.m */; };
 		045004041F021E2B00E77816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045004021F021E2B00E77816 /* Main.storyboard */; };
 		045004061F021E2B00E77816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045004051F021E2B00E77816 /* Assets.xcassets */; };
 		045004091F021E2B00E77816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045004071F021E2B00E77816 /* LaunchScreen.storyboard */; };
 		045004141F021E2D00E77816 /* ZoeWebSocketChatDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 045004131F021E2D00E77816 /* ZoeWebSocketChatDemoTests.m */; };
 		0450041F1F021E2D00E77816 /* ZoeWebSocketChatDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450041E1F021E2D00E77816 /* ZoeWebSocketChatDemoUITests.m */; };
+		045004521F02241E00E77816 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 0450044C1F02241E00E77816 /* camera.png */; };
+		045004541F02241E00E77816 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0450044E1F02241E00E77816 /* photo.png */; };
+		045004581F02248400E77816 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045004571F02248400E77816 /* RootViewController.m */; };
+		04AA03021F02596C0093F62C /* ZoeToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA03011F02596C0093F62C /* ZoeToolBar.m */; };
+		04AA03051F0259930093F62C /* ChatBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA03041F0259930093F62C /* ChatBaseViewController.m */; };
+		04AA030E1F0267D20093F62C /* biaoqing_defaut.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AA030A1F0267D20093F62C /* biaoqing_defaut.png */; };
+		04AA03101F0267D20093F62C /* yuyin_defaut.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AA030C1F0267D20093F62C /* yuyin_defaut.png */; };
+		04AA03161F0268040093F62C /* biaoqing_high.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AA03121F0268040093F62C /* biaoqing_high.png */; };
+		04AA03181F0268040093F62C /* yuyin_high.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AA03141F0268040093F62C /* yuyin_high.png */; };
+		04AA031B1F026C640093F62C /* add_defaut.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AA03191F026C640093F62C /* add_defaut.png */; };
+		04AA031C1F026C640093F62C /* jianpan_defaut.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AA031A1F026C640093F62C /* jianpan_defaut.png */; };
+		04AA031F1F026C7C0093F62C /* add_high.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AA031D1F026C7C0093F62C /* add_high.png */; };
+		04AA03201F026C7C0093F62C /* jianpan_high.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AA031E1F026C7C0093F62C /* jianpan_high.png */; };
+		04AA03271F026D870093F62C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04AA03221F026D870093F62C /* README.md */; };
+		04AA03281F026D870093F62C /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA03241F026D870093F62C /* UIImage+ImageWithColor.m */; };
+		04AA03291F026D870093F62C /* UIImage+ImageWithColor.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = 04AA03251F026D870093F62C /* UIImage+ImageWithColor.podspec.json */; };
+		04AA032A1F026D870093F62C /* UNLICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 04AA03261F026D870093F62C /* UNLICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +55,6 @@
 		045003FA1F021E2B00E77816 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		045003FC1F021E2B00E77816 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		045003FD1F021E2B00E77816 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		045003FF1F021E2B00E77816 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		045004001F021E2B00E77816 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		045004031F021E2B00E77816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		045004051F021E2B00E77816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		045004081F021E2B00E77816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +65,28 @@
 		0450041A1F021E2D00E77816 /* ZoeWebSocketChatDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoeWebSocketChatDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0450041E1F021E2D00E77816 /* ZoeWebSocketChatDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoeWebSocketChatDemoUITests.m; sourceTree = "<group>"; };
 		045004201F021E2D00E77816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0450044C1F02241E00E77816 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		0450044E1F02241E00E77816 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		045004561F02248400E77816 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		045004571F02248400E77816 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		04AA03001F02596C0093F62C /* ZoeToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoeToolBar.h; sourceTree = "<group>"; };
+		04AA03011F02596C0093F62C /* ZoeToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoeToolBar.m; sourceTree = "<group>"; };
+		04AA03031F0259930093F62C /* ChatBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatBaseViewController.h; sourceTree = "<group>"; };
+		04AA03041F0259930093F62C /* ChatBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatBaseViewController.m; sourceTree = "<group>"; };
+		04AA03061F025A160093F62C /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		04AA030A1F0267D20093F62C /* biaoqing_defaut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biaoqing_defaut.png; sourceTree = "<group>"; };
+		04AA030C1F0267D20093F62C /* yuyin_defaut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuyin_defaut.png; sourceTree = "<group>"; };
+		04AA03121F0268040093F62C /* biaoqing_high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biaoqing_high.png; sourceTree = "<group>"; };
+		04AA03141F0268040093F62C /* yuyin_high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuyin_high.png; sourceTree = "<group>"; };
+		04AA03191F026C640093F62C /* add_defaut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_defaut.png; sourceTree = "<group>"; };
+		04AA031A1F026C640093F62C /* jianpan_defaut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jianpan_defaut.png; sourceTree = "<group>"; };
+		04AA031D1F026C7C0093F62C /* add_high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_high.png; sourceTree = "<group>"; };
+		04AA031E1F026C7C0093F62C /* jianpan_high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jianpan_high.png; sourceTree = "<group>"; };
+		04AA03221F026D870093F62C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04AA03231F026D870093F62C /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
+		04AA03241F026D870093F62C /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
+		04AA03251F026D870093F62C /* UIImage+ImageWithColor.podspec.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "UIImage+ImageWithColor.podspec.json"; sourceTree = "<group>"; };
+		04AA03261F026D870093F62C /* UNLICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UNLICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +137,13 @@
 		045003F81F021E2B00E77816 /* ZoeWebSocketChatDemo */ = {
 			isa = PBXGroup;
 			children = (
+				045004341F021FB100E77816 /* OtherResources */,
+				045004331F021F1400E77816 /* Main */,
+				045004321F021F0300E77816 /* Source */,
+				045004311F021EE700E77816 /* ZoeWebSocket */,
+				045004301F021EB900E77816 /* ZoeChatUI */,
 				045003FC1F021E2B00E77816 /* AppDelegate.h */,
 				045003FD1F021E2B00E77816 /* AppDelegate.m */,
-				045003FF1F021E2B00E77816 /* ViewController.h */,
-				045004001F021E2B00E77816 /* ViewController.m */,
 				045004021F021E2B00E77816 /* Main.storyboard */,
 				045004051F021E2B00E77816 /* Assets.xcassets */,
 				045004071F021E2B00E77816 /* LaunchScreen.storyboard */,
@@ -118,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				045003FA1F021E2B00E77816 /* main.m */,
+				04AA03061F025A160093F62C /* Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +178,118 @@
 				045004201F021E2D00E77816 /* Info.plist */,
 			);
 			path = ZoeWebSocketChatDemoUITests;
+			sourceTree = "<group>";
+		};
+		045004301F021EB900E77816 /* ZoeChatUI */ = {
+			isa = PBXGroup;
+			children = (
+				04AA02FB1F02596C0093F62C /* BaseViewController */,
+				04AA02FC1F02596C0093F62C /* Category */,
+				04AA02FD1F02596C0093F62C /* Manager */,
+				04AA02FE1F02596C0093F62C /* ThirdRescources */,
+				04AA02FF1F02596C0093F62C /* View */,
+			);
+			path = ZoeChatUI;
+			sourceTree = "<group>";
+		};
+		045004311F021EE700E77816 /* ZoeWebSocket */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZoeWebSocket;
+			sourceTree = "<group>";
+		};
+		045004321F021F0300E77816 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				045004491F02241E00E77816 /* image */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		045004331F021F1400E77816 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				045004561F02248400E77816 /* RootViewController.h */,
+				045004571F02248400E77816 /* RootViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		045004341F021FB100E77816 /* OtherResources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OtherResources;
+			sourceTree = "<group>";
+		};
+		045004491F02241E00E77816 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				04AA031D1F026C7C0093F62C /* add_high.png */,
+				04AA031E1F026C7C0093F62C /* jianpan_high.png */,
+				04AA03191F026C640093F62C /* add_defaut.png */,
+				04AA031A1F026C640093F62C /* jianpan_defaut.png */,
+				04AA03121F0268040093F62C /* biaoqing_high.png */,
+				04AA03141F0268040093F62C /* yuyin_high.png */,
+				04AA030A1F0267D20093F62C /* biaoqing_defaut.png */,
+				04AA030C1F0267D20093F62C /* yuyin_defaut.png */,
+				0450044C1F02241E00E77816 /* camera.png */,
+				0450044E1F02241E00E77816 /* photo.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		04AA02FB1F02596C0093F62C /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04AA03031F0259930093F62C /* ChatBaseViewController.h */,
+				04AA03041F0259930093F62C /* ChatBaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		04AA02FC1F02596C0093F62C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		04AA02FD1F02596C0093F62C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		04AA02FE1F02596C0093F62C /* ThirdRescources */ = {
+			isa = PBXGroup;
+			children = (
+				04AA03211F026D870093F62C /* UIImageWithColor */,
+			);
+			path = ThirdRescources;
+			sourceTree = "<group>";
+		};
+		04AA02FF1F02596C0093F62C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04AA03001F02596C0093F62C /* ZoeToolBar.h */,
+				04AA03011F02596C0093F62C /* ZoeToolBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04AA03211F026D870093F62C /* UIImageWithColor */ = {
+			isa = PBXGroup;
+			children = (
+				04AA03221F026D870093F62C /* README.md */,
+				04AA03231F026D870093F62C /* UIImage+ImageWithColor.h */,
+				04AA03241F026D870093F62C /* UIImage+ImageWithColor.m */,
+				04AA03251F026D870093F62C /* UIImage+ImageWithColor.podspec.json */,
+				04AA03261F026D870093F62C /* UNLICENSE */,
+			);
+			path = UIImageWithColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +398,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AA03101F0267D20093F62C /* yuyin_defaut.png in Resources */,
 				045004091F021E2B00E77816 /* LaunchScreen.storyboard in Resources */,
+				04AA032A1F026D870093F62C /* UNLICENSE in Resources */,
 				045004061F021E2B00E77816 /* Assets.xcassets in Resources */,
 				045004041F021E2B00E77816 /* Main.storyboard in Resources */,
+				04AA030E1F0267D20093F62C /* biaoqing_defaut.png in Resources */,
+				04AA03181F0268040093F62C /* yuyin_high.png in Resources */,
+				04AA031C1F026C640093F62C /* jianpan_defaut.png in Resources */,
+				04AA03291F026D870093F62C /* UIImage+ImageWithColor.podspec.json in Resources */,
+				04AA03161F0268040093F62C /* biaoqing_high.png in Resources */,
+				04AA03201F026C7C0093F62C /* jianpan_high.png in Resources */,
+				045004521F02241E00E77816 /* camera.png in Resources */,
+				04AA031B1F026C640093F62C /* add_defaut.png in Resources */,
+				045004541F02241E00E77816 /* photo.png in Resources */,
+				04AA031F1F026C7C0093F62C /* add_high.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +437,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045004011F021E2B00E77816 /* ViewController.m in Sources */,
+				04AA03271F026D870093F62C /* README.md in Sources */,
+				04AA03021F02596C0093F62C /* ZoeToolBar.m in Sources */,
+				04AA03281F026D870093F62C /* UIImage+ImageWithColor.m in Sources */,
+				04AA03051F0259930093F62C /* ChatBaseViewController.m in Sources */,
 				045003FE1F021E2B00E77816 /* AppDelegate.m in Sources */,
 				045003FB1F021E2B00E77816 /* main.m in Sources */,
+				045004581F02248400E77816 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +592,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZoeWebSocketChatDemo/Header.h";
 				INFOPLIST_FILE = ZoeWebSocketChatDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zoe.ZoeWebSocketChatDemo;
@@ -435,6 +604,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZoeWebSocketChatDemo/Header.h";
 				INFOPLIST_FILE = ZoeWebSocketChatDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zoe.ZoeWebSocketChatDemo;
@@ -507,6 +677,7 @@
 				045004251F021E2D00E77816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		045004261F021E2D00E77816 /* Build configuration list for PBXNativeTarget "ZoeWebSocketChatDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +686,7 @@
 				045004281F021E2D00E77816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		045004291F021E2D00E77816 /* Build configuration list for PBXNativeTarget "ZoeWebSocketChatDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +695,7 @@
 				0450042B1F021E2D00E77816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
